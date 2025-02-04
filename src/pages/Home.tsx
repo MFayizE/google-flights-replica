@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import FlightSearch from "../common/FlightSearch";
-import useFlightSearchStore from "../state";
+import FlightSearch from "../components/common/FlightSearch";
+import useFlightSearchStore from "../store/state";
 
 const Home = () => {
   const { resetFlightQuery } = useFlightSearchStore();

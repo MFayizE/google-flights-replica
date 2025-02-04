@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FaUser, FaPlus, FaMinus, FaChevronDown } from "react-icons/fa";
-import useFlightSearchStore, { FlightQuery } from "../state";
+import useFlightSearchStore, { FlightQuery } from "../store/state";
 
 const PassengerSelector: React.FC = () => {
   const { flightQuery, setFlightQuery } = useFlightSearchStore();

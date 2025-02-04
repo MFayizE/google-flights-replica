@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { FaClock, FaSearch, FaMapMarkerAlt } from "react-icons/fa";
 import debounce from "lodash.debounce";
-import apiClient from "../../api/client";
+import apiClient from "../utils/client";
 
 export interface Airport {
   skyId: string;

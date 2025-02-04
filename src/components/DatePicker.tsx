@@ -10,8 +10,8 @@ import {
   isWithinInterval,
 } from "date-fns";
 import { FaChevronLeft, FaChevronRight, FaCalendarAlt } from "react-icons/fa";
-import useFlightSearchStore from "../state";
-import apiClient from "../../api/client";
+import useFlightSearchStore from "../store/state";
+import apiClient from "../utils/client";
 
 interface FlightDatePickerProps {
   originSkyId?: string;

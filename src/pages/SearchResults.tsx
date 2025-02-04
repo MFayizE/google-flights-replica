@@ -1,10 +1,10 @@
 import { useEffect, useState, useMemo } from "react";
 import { FaChevronDown, FaChevronUp, FaSlidersH } from "react-icons/fa";
-import { FlightSearchResults, Leg } from "../types";
+import { FlightSearchResults, Leg } from "../utils/types";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { formatDuration, formatTime, formatCurrency } from "../utils";
-import FlightSearch from "../common/FlightSearch";
-import apiClient from "../../api/client";
+import { formatDuration, formatTime, formatCurrency } from "../utils/utils";
+import FlightSearch from "../components/common/FlightSearch";
+import apiClient from "../utils/client";
 
 const SearchResults = () => {
   const [searchParams] = useSearchParams();

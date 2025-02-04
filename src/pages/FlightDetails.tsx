@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import { formatDuration, formatTime, formatCurrency } from "../utils";
-import { FlightDetail, FlightDetailData } from "../types";
-import apiClient from "../../api/client";
+import { formatDuration, formatTime, formatCurrency } from "../utils/utils";
+import { FlightDetail, FlightDetailData } from "../utils/types";
+import apiClient from "../utils/client";
 
 const FlightDetails = () => {
   const [searchParams] = useSearchParams();

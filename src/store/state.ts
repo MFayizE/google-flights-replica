@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { Airport } from "./common/SearchableAirportSelect";
+import { Airport } from "../components/SearchableAirportSelect";
 
 export interface FlightQuery {
   originAirport?: Airport;

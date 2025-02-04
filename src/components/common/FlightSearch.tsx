@@ -1,9 +1,9 @@
 import { FaExchangeAlt, FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import useFlightSearchStore from "../state";
-import DatePicker from "./DatePicker";
-import PassengerSelector from "./PassengerSelector";
-import AirportSelect from "./SearchableAirportSelect";
+import useFlightSearchStore from "../../store/state";
+import DatePicker from "../DatePicker";
+import PassengerSelector from "../PassengerSelector";
+import AirportSelect from "../SearchableAirportSelect";
 import SelectDropdown from "./SelectDropdown";
 
 const FlightSearch = () => {
